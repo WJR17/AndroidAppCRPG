@@ -14,7 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
         android:text="Cadastro de Usuário"
+        android:textColor="#020202"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,17 +67,23 @@
         android:id="@+id/salvarButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#1E2F8A"
         android:text="Cadastrar"
-        app:layout_constraintTop_toBottomOf="@id/registerConfirmPasswordEditText"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/registerConfirmPasswordEditText" />
 
     <Button
         android:id="@+id/sairButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#1E2F8A"
         android:text="Sair"
-        app:layout_constraintTop_toBottomOf="@id/salvarButton"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/salvarButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
