@@ -5,7 +5,7 @@
     android:id="@+id/fragment_login_usuario"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AD0C0C"
+    android:background="#03A9F4"
     tools:context=".ui.login.LoginActivity">
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="92dp"
-        android:backgroundTint="#AD0C0C"
+        android:backgroundTint="#000000"
         android:hint="Email"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="68dp"
-        android:backgroundTint="#AD0C0C"
+        android:backgroundTint="#050607"
         android:hint="Senha"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +66,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="72dp"
         android:background="#EBD6DE"
-        android:backgroundTint="#AD0C0C"
+        android:backgroundTint="@color/black"
         android:clickable="true"
         android:focusable="true"
         android:text="Cadastre-se"
